@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/redhotpenguin/gopacket"
+	"github.com/redhotpenguin/gopacket/layers"
 )
 
 var netFlow gopacket.Flow

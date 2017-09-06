@@ -113,8 +113,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/redhotpenguin/gopacket"
+	"github.com/redhotpenguin/gopacket/layers"
 )
 
 const errorBufferSize = 256
