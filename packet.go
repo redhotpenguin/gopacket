@@ -812,6 +812,8 @@ func (p *PacketSource) packetsToChannel() {
 		packet, err := p.NextPacket()
 		if err == io.EOF {
 			return
+		} else if err != nil {
+			panic(fmt.Sprintf("received error %v", err))
 		} else if err == nil {
 			p.c <- packet
 		}
